@@ -5,7 +5,7 @@ git add [ファイル名]<br>
 ワイルドカード使用可能<br>
 ### ファイル形式指定
 
-*git add *.md*<br>
+git add *.md<br>
 
 複数指定も可能<br>
 git add *.md *.c *.java<br>
@@ -20,7 +20,7 @@ git add docs iib<br>
 git add .  
 
 ### オプション
-####-A --all  
+#### -A --all  
 git管理内のすべての変更がaddされる．カレントディレクトリが先頭のディレクトリでなくても良い．  新規追加，削除したファイルもすべてaddされる  
 git add -A
 git add --all
